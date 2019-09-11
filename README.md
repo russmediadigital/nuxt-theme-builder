@@ -59,11 +59,11 @@ Copyright (c) Julian Martin <julian.martin@russmedia.com>
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-theme-builder.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/nuxt-theme-builder
 
-[circle-ci-src]: https://img.shields.io/circleci/project/github/.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/
+[circle-ci-src]: https://img.shields.io/circleci/project/github/russmediadigital/nuxt-theme-builder.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/russmediadigital/nuxt-theme-builder
 
-[codecov-src]: https://img.shields.io/codecov/c/github/.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/
+[codecov-src]: https://img.shields.io/codecov/c/github/russmediadigital/nuxt-theme-builder.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/russmediadigital/nuxt-theme-builder
 
 [license-src]: https://img.shields.io/npm/l/nuxt-theme-builder.svg?style=flat-square
 [license-href]: https://npmjs.com/package/nuxt-theme-builder
