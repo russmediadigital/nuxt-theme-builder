@@ -45,13 +45,28 @@ describe('basic', () => {
     expect(html).toContain('component from special')
   })
 
-  test('@BUG base uses layout from base', async () => {
+  test('base uses layout from base', async () => {
     const html = await get('/layouts1')
-    expect(html).not.toContain('layout from base')
+    expect(html).toContain('layout from base')
   })
 
   test('base uses layout from special', async () => {
     const html = await get('/layouts2')
+    expect(html).toContain('layout from special')
+  })
+
+  test('special uses layout from base', async () => {
+    const html = await get('/layouts3')
+    expect(html).toContain('layout from base')
+  })
+
+  test('special overwrites layout from base', async () => {
+    const html = await get('/layouts4')
+    expect(html).toContain('layout from special')
+  })
+
+  test('duplicate get\'s removed', async () => {
+    const html = await get('/layouts5')
     expect(html).toContain('layout from special')
   })
 })
