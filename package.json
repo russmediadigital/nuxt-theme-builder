@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/themeBuilder.js",
-  "repository": "",
+  "repository": "russmediadigital/nuxt-theme-builder",
   "publishConfig": {
     "access": "public"
   },
