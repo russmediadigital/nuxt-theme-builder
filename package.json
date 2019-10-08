@@ -23,7 +23,7 @@
     "lib"
   ],
   "dependencies": {
-    "@nuxt/utils": "^2.9",
+    "@nuxt/utils": "^2.10.0",
     "webpack-theme-resolver-plugin": "^2.0.0"
   },
   "devDependencies": {
