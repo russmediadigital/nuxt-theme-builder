@@ -69,4 +69,12 @@ describe('basic', () => {
     const html = await get('/layouts5')
     expect(html).toContain('layout from special')
   })
+
+  test('error page is shown', async () => {
+    try {
+      await get('/error')
+    } catch (e) {
+      expect(e.message).toContain('This is a base error')
+    }
+  })
 })
