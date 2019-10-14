@@ -23,12 +23,12 @@
     "lib"
   ],
   "dependencies": {
-    "@nuxt/utils": "^2.10.0",
+    "@nuxt/utils": "^2.10.1",
     "webpack-theme-resolver-plugin": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@nuxtjs/eslint-config": "latest",
@@ -39,7 +39,7 @@
     "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
-    "nuxt-edge": "latest",
+    "nuxt-edge": "^2.10.1-26179695.624c4c05",
     "request": "latest",
     "request-promise-native": "latest",
     "standard-version": "latest"
