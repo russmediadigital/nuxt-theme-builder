@@ -10,7 +10,8 @@ module.exports = {
   },
 
   modules: [
-    { handler: require('../lib/themeBuilder').default,
+    {
+      handler: require('../lib/themeBuilder').default,
       options: {
         basePath: resolve(__dirname, 'themes'),
         directories: ['special', 'base'],

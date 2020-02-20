@@ -23,25 +23,25 @@
     "lib"
   ],
   "dependencies": {
-    "@nuxt/utils": "^2.10",
+    "@nuxt/utils": "^2.11.0",
     "webpack-theme-resolver-plugin": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
-    "@nuxtjs/eslint-config": "latest",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@nuxtjs/eslint-config": "^2.0.2",
     "babel-eslint": "latest",
-    "babel-jest": "latest",
-    "codecov": "latest",
-    "eslint": "^6.6.0",
-    "get-port": "latest",
-    "husky": "^3.0.9",
-    "jest": "latest",
-    "nuxt-edge": "latest",
-    "request": "latest",
+    "babel-jest": "^25.1.0",
+    "codecov": "^3.6.5",
+    "eslint": "^6.8.0",
+    "get-port": "^5.1.1",
+    "husky": "^4.0.0",
+    "jest": "^25.1.0",
+    "nuxt-edge": "^2.11.1-26369296.53d61f2",
+    "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
-    "standard-version": "latest"
+    "standard-version": "^7.1.0"
   }
 }
