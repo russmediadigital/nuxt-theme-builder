@@ -12,18 +12,20 @@
 
 ## Setup
 
-1. Add `nuxt-theme-builder` dependency to your project
+> **WARNING**: This package got renamed for version 2.2 from `nuxt-theme-builder` to `@russmedia/theme-builder-nuxt`
+
+1. Add `@russmedia/theme-builder-nuxt` dependency to your project
 
 ```bash
-npm install nuxt-theme-builder
+npm install @russmedia/theme-builder-nuxt
 ```
 
-2. Add `nuxt-theme-builder` to the `modules` section of `nuxt.config.js`
+2. Add `@russmedia/theme-builder-nuxt` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
-    ['nuxt-theme-builder', {
+    ['@russmedia/theme-builder-nuxt', {
       basePath: './themes',
       directories: ['special', 'base'],
       aliases: [
@@ -53,11 +55,11 @@ npm install nuxt-theme-builder
 Copyright (c) Julian Martin <julian.martin@russmedia.com>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-theme-builder/latest.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/nuxt-theme-builder
+[npm-version-src]: https://img.shields.io/npm/v/@russmedia/theme-builder-nuxt/latest.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@russmedia/theme-builder-nuxt
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-theme-builder.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/nuxt-theme-builder
+[npm-downloads-src]: https://img.shields.io/npm/dt/@russmedia/theme-builder-nuxt.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@russmedia/theme-builder-nuxt
 
 [circle-ci-src]: https://img.shields.io/circleci/project/github/russmediadigital/nuxt-theme-builder.svg?style=flat-square
 [circle-ci-href]: https://circleci.com/gh/russmediadigital/nuxt-theme-builder
@@ -65,5 +67,5 @@ Copyright (c) Julian Martin <julian.martin@russmedia.com>
 [codecov-src]: https://img.shields.io/codecov/c/github/russmediadigital/nuxt-theme-builder.svg?style=flat-square
 [codecov-href]: https://codecov.io/gh/russmediadigital/nuxt-theme-builder
 
-[license-src]: https://img.shields.io/npm/l/nuxt-theme-builder.svg?style=flat-square
-[license-href]: https://npmjs.com/package/nuxt-theme-builder
+[license-src]: https://img.shields.io/npm/l/@russmedia/theme-builder-nuxt.svg?style=flat-square
+[license-href]: https://npmjs.com/package/@russmedia/theme-builder-nuxt
