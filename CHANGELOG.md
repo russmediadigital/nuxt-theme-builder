@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/russmediadigital/nuxt-theme-builder/compare/v2.0.1...v2.2.0) (2021-08-05)
+
+
+### Features
+
+* change packages ([e4e09e8](https://github.com/russmediadigital/nuxt-theme-builder/commit/e4e09e82e31ac92eefb00ece96f8b2e4e549e6bb))
+
 ### [2.0.1](https://github.com/russmediadigital/nuxt-theme-builder/compare/v1.2.2...v2.0.1) (2021-04-19)
 
 ### [1.2.2](https://github.com/russmediadigital/nuxt-theme-builder/compare/v1.2.1...v1.2.2) (2020-02-20)
