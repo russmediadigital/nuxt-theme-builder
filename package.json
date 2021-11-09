@@ -14,7 +14,7 @@
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt example",
+    "dev": "nuxi dev example",
     "lint": "eslint --ext .js,.vue example lib test",
     "test": "npm run lint && jest",
     "release": "npm run test && standard-version bumpFiles && git push --follow-tags && npm publish",
@@ -32,6 +32,8 @@
     "@babel/preset-env": "^7.8.4",
     "@commitlint/cli": "^13.0.0",
     "@commitlint/config-conventional": "^13.0.0",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27237303.6acfdcd",
+    "@nuxt/kit-edge": "^3.0.0-27237303.6acfdcd",
     "@nuxtjs/eslint-config": "^6.0.0",
     "babel-eslint": "latest",
     "babel-jest": "^26.0.0",
@@ -40,7 +42,7 @@
     "get-port": "^5.1.1",
     "husky": "^6.0.0",
     "jest": "^26.0.0",
-    "nuxt-edge": "^2.16.0-26979859.88ea02c4",
+    "nuxt-edge": "latest",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
     "standard-version": "^9.0.0"

@@ -1,18 +1,17 @@
-const { resolve } = require('path')
+import { resolve } from 'path'
+import { defineNuxtConfig } from '@nuxt/bridge'
 
-module.exports = {
+export default defineNuxtConfig({
+  bridge: true,
+  vite: true,
   rootDir: resolve(__dirname, '..'),
   buildDir: resolve(__dirname, '.nuxt'),
   srcDir: resolve(__dirname, 'themes', 'special'),
 
-  render: {
-    resourceHints: false
-  },
-
-  modules: [
-    {
-      handler: require('../lib/themeBuilder').default,
-      options: {
+  buildModules: [
+    [
+      '../lib/themeBuilder',
+      {
         basePath: resolve(__dirname, 'themes'),
         directories: ['special', 'base'],
         aliases: [
@@ -25,6 +24,6 @@ module.exports = {
           }
         ]
       }
-    }
+    ]
   ]
-}
+})
